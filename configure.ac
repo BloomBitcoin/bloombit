@@ -8,9 +8,9 @@ Explore
  @BloomBitcoin
  Sign out
  Watch 258
-  Star 1,773  Fork 719 dogecoin/dogecoin
+  Star 1,773  Fork 719 bloombitcoin/bloombitcoin
  Code  Issues 67  Pull requests 17  Projects 0  Wiki  Insights
-Branch: master Find file Copy pathdogecoin/configure.ac
+Branch: master Find file Copy pathbloombitcoin/configure.ac
 10a5e93  13 days ago
 @patricklodder patricklodder Revert "Change fPIE to fPIC (#1420)" (#1447)
 20 contributors @theuni @laanwj @luke-jr @sipa @paveljanik @rnicoll @DomT4 @sudosurootdev @patricklodder @langerhans @randy-waterhouse @joshtriplett @jonasschnelli @TheBlueMatt @codeboost @D3m0nKingx @brandondahler @arowser @s3erios @4tar
@@ -24,7 +24,7 @@ define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([Dogecoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/dogecoin/dogecoin/issues],[dogecoin])
+AC_INIT([Bloombitcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/Bloombitcoin/bloombitcoin/issues],[bloombitcoin])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
